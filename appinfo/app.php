@@ -23,8 +23,6 @@
 
 OCP\Util::addStyle( 'videos', 'style');
 
-OCP\App::register(array('order' => 70, 'id' => 'videos', 'name' => 'Videos'));
-
 OCP\App::addNavigationEntry(array(
 	'id' => 'videos_index', 
 	'order' => 80, 
