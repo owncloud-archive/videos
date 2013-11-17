@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<info>
+	<id>videos</id>
+	<name>Videos</name>
+	<description>A Player for videos</description>
+	<licence>AGPL</licence>
+	<author>Frank Karlitschek, Georg Ehrke</author>
+	<require>5</require>
+</info>

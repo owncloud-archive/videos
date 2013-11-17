@@ -1,0 +1,26 @@
+#emptyfolder { position:absolute; margin:10em 0 0 10em; font-size:1.5em; font-weight:bold; color:#888; text-shadow:#fff 0 1px 0; }
+
+.videoslist {  margin-top:5px; padding:5px; width:100%;}
+.videoslist tr:hover {  backgound-color:#aaa; }
+.videoslist tr td {  padding:5px; }
+
+#content {
+	background: #f8f8f8;
+}
+
+.video {
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 40px;
+	width: 200px;
+	height: 113px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+
+.videotitle {
+	margin-top: 115px;
+	width: 200px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
