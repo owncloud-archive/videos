@@ -1,12 +1,8 @@
-.videoslist {  margin-top:5px; padding:5px; width:100%;}
-.videoslist tr:hover {  backgound-color:#aaa; }
-.videoslist tr td {  padding:5px; }
+.videos-videoslist {  margin-top:5px; padding:5px; width:100%;}
+.videos-videoslist tr:hover {  backgound-color:#aaa; }
+.videos-videoslist tr td {  padding:5px; }
 
-#content {
-	background: #f8f8f8;
-}
-
-.video {
+.videos-video {
 	margin-top: 15px;
 	margin-left: 15px;
 	margin-bottom: 40px;
@@ -16,7 +12,7 @@
 	border-radius: 15px;
 }
 
-.videotitle {
+.videos-videotitle {
 	margin-top: 115px;
 	width: 200px;
 	overflow: hidden;
