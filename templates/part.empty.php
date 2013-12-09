@@ -1,3 +1,4 @@
-<div id="emptyfolder">
-	<span class="emptyinfo">No videos found. Please upload a video into your ownCloud</span>
+<div id="emptycontent">
+No videos found<br>
+Videos uploaded through the Files app will show up here
 </div>

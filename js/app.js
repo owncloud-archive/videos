@@ -1,11 +1,11 @@
 $(document).ready(function() {
-	$('#videoscontainer').masonry({
-		itemselector: '.video',
+	$('#videos-videoscontainer').masonry({
+		itemselector: '.videos-video',
 	});
 });
 
 $(document).ready(function() {
-	$('.video').click(function() {
+	$('.videos-video').click(function() {
 		videoViewer.file = $(this).data('name');
 		videoViewer.dir = $(this).data('dir');
 		videoViewer.location = videoViewer.getMediaUrl($(this).data('name'));
