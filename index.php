@@ -30,9 +30,9 @@ namespace OCA\Videos;
 \OCP\Util::addScript( 'videos', 'app' );
 \OCP\Util::addScript( 'videos/3rdparty', 'masonry.pkgd' );
 
-\OCP\Util::addStyle( 'files_videoviewer', 'style' );
-\OCP\Util::addStyle( 'files_videoviewer', 'mediaelementplayer' );
-\OCP\Util::addscript( 'files_videoviewer', 'viewer');
+//\OCP\Util::addStyle( 'files_videoviewer', 'style' );
+\OCP\Util::addStyle( 'videos', 'mediaelementplayer' );
+\OCP\Util::addscript( 'videos', 'viewer');
 
 $manager = new VideosManager();
 $videos = $manager->getVideos();

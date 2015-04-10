@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	$('#videos-videoscontainer').masonry({
-		itemselector: '.videos-video',
+		itemselector: '.videos-video'
 	});
 });
 

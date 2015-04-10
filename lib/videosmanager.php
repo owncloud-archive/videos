@@ -80,6 +80,6 @@ class VideosManager {
 		$y = 113;
 		$path = substr($path, 6);
 
-		return \OCP\Util::linkToRoute( 'core_ajax_preview', array('x' => $x, 'y' => $y, 'file' => urlencode($path) ));
+		return \OCP\Util::linkToRoute( 'core_ajax_preview', array('x' => $x, 'y' => $y, 'file' => $path ));
 	}
 }
