@@ -6,4 +6,8 @@
 	<licence>AGPL</licence>
 	<author>Frank Karlitschek, Georg Ehrke</author>
 	<require>5</require>
+	<dependencies>
+		<owncloud min-version="5.0" max-version="7.0" />
+	</dependencies>
+
 </info>
